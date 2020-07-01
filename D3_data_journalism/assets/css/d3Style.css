@@ -45,11 +45,11 @@
   font-size: 12px;
   line-height: 1;
   line-height: 1.5em;
-  color: #fff;
   text-align: center;
   text-transform: capitalize;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 4px;
+  opacity:0.6;
 }
 
 /* Mobile Rules */

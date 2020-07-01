@@ -18,6 +18,21 @@
   opacity: 0.3;
 }
 
+.tooltip {
+  padding: 2px;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color:black;
+  text-align: left;
+  background: #E0DDEC ;
+  border: 2;
+  border-radius: 10px;
+  width: 200px;
+  height: 70px;
+}
+  
+
 /* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
 html {
   position: relative;
