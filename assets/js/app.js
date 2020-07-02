@@ -1,7 +1,7 @@
 
 //create svg sizes
 var svgWidth = 800;
-var svgHeight = 650;
+var svgHeight = 1000;
 
 //create margins for chart
 var margin = {
@@ -111,7 +111,7 @@ d3.csv("assets/data/data.csv").then(function(movieData) {
     .append("circle")
     .attr("cx", d => xLinearScale(d[chosenXAxis]))
     .attr("cy", d => yLinearScale(d.revenue))
-    .attr("r", "12")
+    .attr("r", "15")
     .attr("fill", d => myColor(d.revenue))
     .attr("opacity", ".9");
 
@@ -150,7 +150,7 @@ d3.csv("assets/data/data.csv").then(function(movieData) {
       toolTip.show(data, this);
     })
       // hide when mouse moves away
-      .on("mouseout", function(data, index) {
+      .on("mouseout", function(data) {
         toolTip.hide(data);
       });
 
