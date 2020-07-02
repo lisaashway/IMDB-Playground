@@ -133,7 +133,7 @@ d3.csv("assets/data/data.csv").then(function(movieData) {
       .attr("class", "tooltip")
       .offset([175, -100])
       .html(function(d) {
-        return ("<strong>" + d.title + "</strong>" +
+        return ("<strong><u>" + d.title + "</u></strong>" +
         "<br><strong>Year: </strong>" + d.year + 
         "<br><strong>Revenue: </strong>$" + d.revenue + " Million" +
         "<br><strong>Metascore: </strong>" + d.metascore +
