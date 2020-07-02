@@ -44,8 +44,9 @@
 }
 
 .d3-tip {
-  padding: 12px;
-  font-size: 12px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 8px;
+  font-size: 10px;
   line-height: 1;
   line-height: 1.5em;
   text-align: center;
@@ -55,19 +56,3 @@
   opacity:0.6;
 }
 
-/* Mobile Rules */
-@media screen and (max-width: 530px) {
-  .stateText {
-    display: none;
-  }
-
-  .aText {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .aText {
-    font-size: 13px;
-  }
-}

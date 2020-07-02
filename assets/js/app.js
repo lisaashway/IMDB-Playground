@@ -1,7 +1,7 @@
 
 //create svg sizes
-var svgWidth = 800;
-var svgHeight = 1000;
+var svgWidth = 1000;
+var svgHeight = 650;
 
 //create margins for chart
 var margin = {
@@ -131,15 +131,15 @@ d3.csv("assets/data/data.csv").then(function(movieData) {
     // create tooltip pop-up
     var toolTip = d3.tip()
       .attr("class", "tooltip")
-      .offset([80, -100])
+      .offset([175, -100])
       .html(function(d) {
-        return (d.title +
-        "<br>Year: " + d.year + 
-        "<br>Revenue: $" + d.revenue + " Million" +
-        "<br>Metascore: " + d.metascore +
-        "<br>Votes: " + d.votes +
-        "<br>Rating: " + d.rating + 
-        "<br>Actors: " + d.actors);
+        return ("<strong>" + d.title + "</strong>" +
+        "<br><strong>Year: </strong>" + d.year + 
+        "<br><strong>Revenue: </strong>$" + d.revenue + " Million" +
+        "<br><strong>Metascore: </strong>" + d.metascore +
+        "<br><strong>Votes: </strong>" + d.votes +
+        "<br><strong>Rating: </strong>" + d.rating + 
+        "<br><strong>Actors: </strong>" + d.actors);
       });
 
     // adding tooltop to chartGroup
@@ -160,7 +160,7 @@ d3.csv("assets/data/data.csv").then(function(movieData) {
       .attr("y", 0 - margin.left - 5)
       .attr("x", 0 - (height / 2))
       .attr("dy", "1em")
-      .attr("class", "axisText")
+      .attr("class", "active")
       .text("Revenue (in Millions)");
 
 

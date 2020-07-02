@@ -23,16 +23,13 @@
 }
 
 .tooltip {
+  font-size: 12px;
   padding: 4px;
   font-weight: bold;
-  padding-top: 8px;
-  padding-bottom: 8px;
   color:black;
   text-align: left;
   background: #E0DDEC ;
-  border: 4;
   border-radius: 10px;
-  width: 400px;
 }
 
 .axis-text {
