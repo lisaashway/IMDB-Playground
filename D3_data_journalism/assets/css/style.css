@@ -18,18 +18,44 @@
   opacity: 0.3;
 }
 
+.center {
+  text-align: center;
+}
+
 .tooltip {
-  padding: 2px;
+  padding: 4px;
   font-weight: bold;
   padding-top: 8px;
   padding-bottom: 8px;
   color:black;
   text-align: left;
   background: #E0DDEC ;
-  border: 2;
+  border: 4;
   border-radius: 10px;
-  width: 200px;
-  height: 70px;
+  width: 400px;
+}
+
+.axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #551aaf;
+  text-anchor: middle;
+}
+
+
+.active {
+  font-weight: bold;
+  fill: #000;
+  fill: #551aaf;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.inactive {
+  font-weight: lighter;
+  fill: #551aaf;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
 }
   
 
@@ -59,3 +85,4 @@ body {
   margin: 0;
   font-size: 16px;
 }
+
