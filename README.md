@@ -1,6 +1,7 @@
 # IMDB-Playground
 
-This repository uses IMDB movie data to create an interactive scatter plot using D3, Javascript, CSS, and Bootstrap
+This repository uses IMDB movie data to create an interactive scatter plot using D3, Javascript, CSS, and Bootstrap.
+The visualization can be found here! https://lisaashway.github.io/IMDB-Playground/
 
 The following files are contained in this resposity:
 
